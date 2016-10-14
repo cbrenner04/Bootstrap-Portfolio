@@ -7,8 +7,9 @@
         <meta charset="UTF-8">
         <title>Bootstrap-Portfolio</title>
         <link href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/sandstone/bootstrap.min.css" rel="stylesheet" integrity="sha384-G3G7OsJCbOk1USkOY4RfeX1z27YaWrZ1YuaQ5tbuawed9IoreRDpWpTkZLXQfPm3" crossorigin="anonymous">
+        <link rel="stylesheet" href="assets/style.css">
         <!-- Latest compiled and minified JavaScript -->
-        <script src="http://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
     </head>
@@ -41,6 +42,91 @@
             </div>
 
         </nav>
+
+        <div class="container-fluid wrapper">
+
+            <div class="row">
+
+                <!-- About Me section -->
+                <div class="col-xs-12 col-md-8">
+                    <section class="panel panel-primary">
+
+                        <header class="panel-heading">
+                            <h2>Contact</h2>
+                        </header>
+
+                        <div class="panel-body">
+
+                            <form>
+
+                                <div class="form-group">
+                                    <label for="Name">Name</label>
+                                    <input type="text" class="form-control" id="name" placeholder="Jane Smith">
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="Email">Email</label>
+                                    <input type="email" class="form-control" id="email" placeholder="email@example.com">
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="Message">Message</label>
+                                    <textarea class="form-control" name="message" rows="15"></textarea>
+                                </div>
+
+                                <div class="form-group">
+                                    <button type="submit" class="btn btn-default">Submit</button>
+                                </div>
+
+                            </form>
+
+                        </div>
+
+                    </section>
+                </div>
+
+                <!-- Connect with Me section -->
+                <div class="col-xs-12 col-md-4">
+                    <section class="panel panel-primary">
+
+                        <header class="panel-heading">
+                            <h3>Connect with Me</h3>
+                        </header>
+
+                        <div class="panel-body text-center">
+                            <a class="col-xs-4" href="https://github.com/cbrenner04" target="_blank">
+                                <img src="assets/images/GitHub-Mark-120px-plus.png" alt="GitHub icon" width="50">
+                            </a>
+
+                            <a class="col-xs-4" href="https://www.linkedin.com/in/christopher-brenner-mph-b3a12427" target="_blank">
+                                <img src="assets/images/In-2CRev-128px-R.png" alt="Linkedin icon" width="50">
+                            </a>
+
+                            <a class="col-xs-4" href="http://stackoverflow.com/users/6731497/" target="_blank">
+                                <img src="assets/images/so-icon.png" alt="StackOverflow icon" width="50">
+                            </a>
+                        </div>
+
+                    </section>
+                </div>
+
+            </div>
+
+            <div class="push"></div>
+
+        </div>
+
+        <footer class="navbar-inverse">
+
+            <div class="container-fluid text-center">
+                <br>
+                <p>&copy; Copyright 2016 Christopher J Brenner
+                    <br>
+                    <a class="text-muted" href="https://github.com/cbrenner04/Basic-Portfolio" target="_blank">Source Code</a>
+                </p>
+            </div>
+
+        </footer>
 
     </body>
 
